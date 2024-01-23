@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout from GitHub') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/psivaramps/<>.git'
+                    url: 'https://github.com/psivaramps/pyapp-docker.git'
             }
         }
 
